@@ -1,0 +1,1980 @@
+[
+  {
+    "institution_id": "imperial",
+    "name": "Imperial College London",
+    "short_name": "Imperial",
+    "region": "london",
+    "map_center": {
+      "latitude": 51.5039,
+      "longitude": -0.1935
+    },
+    "website": "https://www.imperial.ac.uk",
+    "campuses": [
+      {
+        "campus_id": "imperial-south-kensington",
+        "name": "South Kensington Campus",
+        "short_name": "South Kensington",
+        "latitude": 51.4989595,
+        "longitude": -0.1756407,
+        "address": "Exhibition Road, London SW7 2AZ",
+        "location_type": "university_campus",
+        "represented_lab_count": 2,
+        "source_item_count": 7,
+        "unique_author_count": 4,
+        "evidence_status": "summary_available",
+        "confidence": "low",
+        "provenance": {
+          "source_item_count": 7,
+          "unique_author_count": 4,
+          "withheld_item_count": 0,
+          "date_range_start": "2025-09-03",
+          "date_range_end": "2025-10-11",
+          "generated_at": "2026-07-23",
+          "model": "offline-heuristic"
+        },
+        "summary": {
+          "overview": "Across 7 anonymised, user-reported items from 4 distinct authors, recurring perceptions cluster into 4 positive theme(s) and 2 challenge theme(s). All statements are unverified impressions, not established facts.",
+          "positive_themes": [
+            {
+              "theme": "Supportive supervision",
+              "description": "Several items describe supervisors or mentors as approachable and helpful.",
+              "supporting_item_count": 5
+            },
+            {
+              "theme": "Collaborative atmosphere",
+              "description": "Items mention collaboration and a friendly group culture.",
+              "supporting_item_count": 3
+            },
+            {
+              "theme": "Resources and facilities",
+              "description": "Items note access to funding, equipment or facilities.",
+              "supporting_item_count": 1
+            },
+            {
+              "theme": "Research freedom",
+              "description": "Items describe autonomy in choosing research directions.",
+              "supporting_item_count": 1
+            }
+          ],
+          "challenge_themes": [
+            {
+              "theme": "Pressure and expectations",
+              "description": "Items describe pressure from deadlines or high expectations.",
+              "supporting_item_count": 1
+            },
+            {
+              "theme": "Communication and clarity",
+              "description": "Items mention unclear communication or expectations.",
+              "supporting_item_count": 1
+            }
+          ],
+          "neutral_observations": [
+            "Items reference an international or diverse membership.",
+            "Items mention the group's size or structure.",
+            "Items reference interdisciplinary or cross-department work."
+          ],
+          "confidence": "low",
+          "limitations": [
+            "Statements are self-selected and unverified.",
+            "Volume is limited and may not represent the wider group."
+          ],
+          "withheld_item_count": 0
+        }
+      },
+      {
+        "campus_id": "imperial-white-city",
+        "name": "White City Campus",
+        "short_name": "White City",
+        "latitude": 51.5151286,
+        "longitude": -0.2242588,
+        "address": "Wood Lane, London W12 0BZ",
+        "location_type": "university_campus",
+        "represented_lab_count": 2,
+        "source_item_count": 10,
+        "unique_author_count": 4,
+        "evidence_status": "summary_available",
+        "confidence": "medium",
+        "provenance": {
+          "source_item_count": 10,
+          "unique_author_count": 4,
+          "withheld_item_count": 0,
+          "date_range_start": "2025-09-05",
+          "date_range_end": "2025-10-05",
+          "generated_at": "2026-07-23",
+          "model": "offline-heuristic"
+        },
+        "summary": {
+          "overview": "Across 10 anonymised, user-reported items from 4 distinct authors, recurring perceptions cluster into 4 positive theme(s) and 3 challenge theme(s). All statements are unverified impressions, not established facts.",
+          "positive_themes": [
+            {
+              "theme": "Supportive supervision",
+              "description": "Several items describe supervisors or mentors as approachable and helpful.",
+              "supporting_item_count": 6
+            },
+            {
+              "theme": "Collaborative atmosphere",
+              "description": "Items mention collaboration and a friendly group culture.",
+              "supporting_item_count": 3
+            },
+            {
+              "theme": "Resources and facilities",
+              "description": "Items note access to funding, equipment or facilities.",
+              "supporting_item_count": 3
+            },
+            {
+              "theme": "Research freedom",
+              "description": "Items describe autonomy in choosing research directions.",
+              "supporting_item_count": 1
+            }
+          ],
+          "challenge_themes": [
+            {
+              "theme": "Workload and hours",
+              "description": "Items report long hours or a heavy workload.",
+              "supporting_item_count": 2
+            },
+            {
+              "theme": "Pressure and expectations",
+              "description": "Items describe pressure from deadlines or high expectations.",
+              "supporting_item_count": 5
+            },
+            {
+              "theme": "Communication and clarity",
+              "description": "Items mention unclear communication or expectations.",
+              "supporting_item_count": 3
+            }
+          ],
+          "neutral_observations": [
+            "Items reference an international or diverse membership.",
+            "Items mention the group's size or structure."
+          ],
+          "confidence": "medium",
+          "limitations": [
+            "Statements are self-selected and unverified.",
+            "Volume is limited and may not represent the wider group."
+          ],
+          "withheld_item_count": 0
+        }
+      },
+      {
+        "campus_id": "imperial-hammersmith",
+        "name": "Hammersmith Hospital Campus",
+        "short_name": "Hammersmith",
+        "latitude": 51.5176352,
+        "longitude": -0.2362244,
+        "address": "Du Cane Road, London W12 0NN",
+        "location_type": "medical_research_campus",
+        "represented_lab_count": 0,
+        "source_item_count": 0,
+        "unique_author_count": 0,
+        "evidence_status": "no_assigned_evidence",
+        "confidence": null,
+        "provenance": null,
+        "summary": null
+      },
+      {
+        "campus_id": "imperial-st-marys",
+        "name": "St Mary's Hospital Campus",
+        "short_name": "St Mary's",
+        "latitude": 51.517434,
+        "longitude": -0.1743245,
+        "address": "Praed Street, London W2 1NY",
+        "location_type": "medical_research_campus",
+        "represented_lab_count": 0,
+        "source_item_count": 0,
+        "unique_author_count": 0,
+        "evidence_status": "no_assigned_evidence",
+        "confidence": null,
+        "provenance": null,
+        "summary": null
+      },
+      {
+        "campus_id": "imperial-charing-cross",
+        "name": "Charing Cross Hospital Campus",
+        "short_name": "Charing Cross",
+        "latitude": 51.4869204,
+        "longitude": -0.2196194,
+        "address": "Fulham Palace Road, London W6 8RF",
+        "location_type": "medical_research_campus",
+        "represented_lab_count": 0,
+        "source_item_count": 0,
+        "unique_author_count": 0,
+        "evidence_status": "no_assigned_evidence",
+        "confidence": null,
+        "provenance": null,
+        "summary": null
+      },
+      {
+        "campus_id": "imperial-royal-brompton",
+        "name": "Royal Brompton Hospital Campus",
+        "short_name": "Royal Brompton",
+        "latitude": 51.4893805,
+        "longitude": -0.1710046,
+        "address": "Sydney Street, London SW3 6NP",
+        "location_type": "medical_research_campus",
+        "represented_lab_count": 0,
+        "source_item_count": 0,
+        "unique_author_count": 0,
+        "evidence_status": "no_assigned_evidence",
+        "confidence": null,
+        "provenance": null,
+        "summary": null
+      },
+      {
+        "campus_id": "imperial-chelsea-westminster",
+        "name": "Chelsea and Westminster Hospital Campus",
+        "short_name": "Chelsea & Westminster",
+        "latitude": 51.4843131,
+        "longitude": -0.1813433,
+        "address": "369 Fulham Road, London SW10 9NH",
+        "location_type": "medical_research_campus",
+        "represented_lab_count": 0,
+        "source_item_count": 0,
+        "unique_author_count": 0,
+        "evidence_status": "no_assigned_evidence",
+        "confidence": null,
+        "provenance": null,
+        "summary": null
+      }
+    ],
+    "campus_unspecified": {
+      "campus_id": null,
+      "campus_label": "Location unspecified",
+      "source_item_count": 1,
+      "unique_author_count": 1,
+      "date_range_start": "2025-09-07",
+      "date_range_end": "2025-09-07"
+    },
+    "represented_lab_count": 3,
+    "source_item_count": 18,
+    "unique_author_count": 5,
+    "date_range_start": "2025-09-03",
+    "date_range_end": "2025-10-11",
+    "overall_themes": [
+      "Supportive supervision",
+      "Collaborative atmosphere",
+      "Resources and facilities",
+      "Pressure and expectations",
+      "Communication and clarity",
+      "Research freedom"
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-07-23",
+    "departments": [
+      "Computing",
+      "Bioengineering"
+    ],
+    "research_areas": [
+      "Computer Vision",
+      "Graphics",
+      "Machine Learning",
+      "Neurotechnology",
+      "Robotics",
+      "Signal Processing"
+    ],
+    "labs": [
+      {
+        "lab_id": "imperial-adaptive-systems",
+        "lab_name": "Adaptive Systems Lab",
+        "department": "Computing",
+        "campus_ids": [
+          "imperial-south-kensington",
+          "imperial-white-city"
+        ],
+        "campus_evidence": [
+          {
+            "campus_id": "imperial-south-kensington",
+            "campus_label": "South Kensington",
+            "source_item_count": 4,
+            "unique_author_count": 4,
+            "date_range_start": "2025-09-03",
+            "date_range_end": "2025-09-19"
+          },
+          {
+            "campus_id": "imperial-white-city",
+            "campus_label": "White City",
+            "source_item_count": 4,
+            "unique_author_count": 4,
+            "date_range_start": "2025-09-05",
+            "date_range_end": "2025-09-17"
+          },
+          {
+            "campus_id": null,
+            "campus_label": "Location unspecified",
+            "source_item_count": 1,
+            "unique_author_count": 1,
+            "date_range_start": "2025-09-07",
+            "date_range_end": "2025-09-07"
+          }
+        ],
+        "campus_summaries": [],
+        "research_areas": [
+          "Machine Learning",
+          "Robotics"
+        ],
+        "has_summary": true,
+        "message": null,
+        "confidence": "medium",
+        "provenance": {
+          "source_item_count": 9,
+          "unique_author_count": 5,
+          "withheld_item_count": 2,
+          "date_range_start": "2025-09-03",
+          "date_range_end": "2025-09-19",
+          "generated_at": "2026-07-23",
+          "model": "offline-heuristic"
+        },
+        "summary": {
+          "overview": "Across 9 anonymised, user-reported items from 5 distinct authors, recurring perceptions cluster into 4 positive theme(s) and 2 challenge theme(s). All statements are unverified impressions, not established facts.",
+          "positive_themes": [
+            {
+              "theme": "Supportive supervision",
+              "description": "Several items describe supervisors or mentors as approachable and helpful.",
+              "supporting_item_count": 5
+            },
+            {
+              "theme": "Collaborative atmosphere",
+              "description": "Items mention collaboration and a friendly group culture.",
+              "supporting_item_count": 3
+            },
+            {
+              "theme": "Resources and facilities",
+              "description": "Items note access to funding, equipment or facilities.",
+              "supporting_item_count": 2
+            },
+            {
+              "theme": "Research freedom",
+              "description": "Items describe autonomy in choosing research directions.",
+              "supporting_item_count": 1
+            }
+          ],
+          "challenge_themes": [
+            {
+              "theme": "Pressure and expectations",
+              "description": "Items describe pressure from deadlines or high expectations.",
+              "supporting_item_count": 3
+            },
+            {
+              "theme": "Communication and clarity",
+              "description": "Items mention unclear communication or expectations.",
+              "supporting_item_count": 2
+            }
+          ],
+          "neutral_observations": [
+            "Items reference an international or diverse membership.",
+            "Items mention the group's size or structure.",
+            "Items reference interdisciplinary or cross-department work."
+          ],
+          "confidence": "medium",
+          "limitations": [
+            "Statements are self-selected and unverified.",
+            "Volume is limited and may not represent the wider group."
+          ],
+          "withheld_item_count": 2
+        }
+      },
+      {
+        "lab_id": "imperial-visual-computing",
+        "lab_name": "Visual Computing Group",
+        "department": "Computing",
+        "campus_ids": [
+          "imperial-white-city"
+        ],
+        "campus_evidence": [
+          {
+            "campus_id": "imperial-white-city",
+            "campus_label": "White City",
+            "source_item_count": 6,
+            "unique_author_count": 4,
+            "date_range_start": "2025-09-25",
+            "date_range_end": "2025-10-05"
+          }
+        ],
+        "campus_summaries": [],
+        "research_areas": [
+          "Computer Vision",
+          "Graphics"
+        ],
+        "has_summary": true,
+        "message": null,
+        "confidence": "low",
+        "provenance": {
+          "source_item_count": 6,
+          "unique_author_count": 4,
+          "withheld_item_count": 0,
+          "date_range_start": "2025-09-25",
+          "date_range_end": "2025-10-05",
+          "generated_at": "2026-07-23",
+          "model": "offline-heuristic"
+        },
+        "summary": {
+          "overview": "Across 6 anonymised, user-reported items from 4 distinct authors, recurring perceptions cluster into 3 positive theme(s) and 3 challenge theme(s). All statements are unverified impressions, not established facts.",
+          "positive_themes": [
+            {
+              "theme": "Supportive supervision",
+              "description": "Several items describe supervisors or mentors as approachable and helpful.",
+              "supporting_item_count": 4
+            },
+            {
+              "theme": "Collaborative atmosphere",
+              "description": "Items mention collaboration and a friendly group culture.",
+              "supporting_item_count": 2
+            },
+            {
+              "theme": "Resources and facilities",
+              "description": "Items note access to funding, equipment or facilities.",
+              "supporting_item_count": 2
+            }
+          ],
+          "challenge_themes": [
+            {
+              "theme": "Workload and hours",
+              "description": "Items report long hours or a heavy workload.",
+              "supporting_item_count": 2
+            },
+            {
+              "theme": "Pressure and expectations",
+              "description": "Items describe pressure from deadlines or high expectations.",
+              "supporting_item_count": 2
+            },
+            {
+              "theme": "Communication and clarity",
+              "description": "Items mention unclear communication or expectations.",
+              "supporting_item_count": 1
+            }
+          ],
+          "neutral_observations": [
+            "Items reference an international or diverse membership.",
+            "Items mention the group's size or structure."
+          ],
+          "confidence": "low",
+          "limitations": [
+            "Statements are self-selected and unverified.",
+            "Volume is limited and may not represent the wider group."
+          ],
+          "withheld_item_count": 0
+        }
+      },
+      {
+        "lab_id": "imperial-neurotech",
+        "lab_name": "Neurotechnology Lab",
+        "department": "Bioengineering",
+        "campus_ids": [
+          "imperial-south-kensington"
+        ],
+        "campus_evidence": [
+          {
+            "campus_id": "imperial-south-kensington",
+            "campus_label": "South Kensington",
+            "source_item_count": 3,
+            "unique_author_count": 2,
+            "date_range_start": "2025-10-07",
+            "date_range_end": "2025-10-11"
+          }
+        ],
+        "campus_summaries": [],
+        "research_areas": [
+          "Neurotechnology",
+          "Signal Processing"
+        ],
+        "has_summary": false,
+        "message": "Insufficient public data for a reliable summary.",
+        "confidence": null,
+        "provenance": {
+          "source_item_count": 3,
+          "unique_author_count": 2,
+          "withheld_item_count": 0,
+          "date_range_start": "2025-10-07",
+          "date_range_end": "2025-10-11",
+          "generated_at": "2026-07-23",
+          "model": "offline-heuristic"
+        },
+        "summary": null
+      }
+    ]
+  },
+  {
+    "institution_id": "ucl",
+    "name": "University College London",
+    "short_name": "UCL",
+    "region": "london",
+    "map_center": {
+      "latitude": 51.532,
+      "longitude": -0.086
+    },
+    "website": "https://www.ucl.ac.uk",
+    "campuses": [
+      {
+        "campus_id": "ucl-bloomsbury",
+        "name": "Bloomsbury Campus",
+        "short_name": "Bloomsbury",
+        "latitude": 51.5244855,
+        "longitude": -0.1338744,
+        "address": "Gower Street, London WC1E 6BT",
+        "location_type": "university_campus",
+        "represented_lab_count": 1,
+        "source_item_count": 3,
+        "unique_author_count": 2,
+        "evidence_status": "below_threshold",
+        "confidence": null,
+        "provenance": {
+          "source_item_count": 3,
+          "unique_author_count": 2,
+          "withheld_item_count": 0,
+          "date_range_start": "2025-10-13",
+          "date_range_end": "2025-10-25",
+          "generated_at": "2026-07-23",
+          "model": "offline-heuristic"
+        },
+        "summary": null
+      },
+      {
+        "campus_id": "ucl-east",
+        "name": "UCL East",
+        "short_name": "UCL East",
+        "latitude": 51.537542,
+        "longitude": -0.0119821,
+        "address": "Marshgate, 7 Sidings Street, London E20 2AE",
+        "location_type": "university_campus",
+        "represented_lab_count": 1,
+        "source_item_count": 4,
+        "unique_author_count": 2,
+        "evidence_status": "below_threshold",
+        "confidence": null,
+        "provenance": {
+          "source_item_count": 4,
+          "unique_author_count": 2,
+          "withheld_item_count": 0,
+          "date_range_start": "2025-10-15",
+          "date_range_end": "2025-10-27",
+          "generated_at": "2026-07-23",
+          "model": "offline-heuristic"
+        },
+        "summary": null
+      },
+      {
+        "campus_id": "ucl-queen-square",
+        "name": "UCL Queen Square Institute of Neurology",
+        "short_name": "Queen Square",
+        "latitude": 51.5226146,
+        "longitude": -0.1224622,
+        "address": "Queen Square, London WC1N 3BG",
+        "location_type": "research_institute",
+        "represented_lab_count": 1,
+        "source_item_count": 7,
+        "unique_author_count": 3,
+        "evidence_status": "summary_available",
+        "confidence": "low",
+        "provenance": {
+          "source_item_count": 7,
+          "unique_author_count": 3,
+          "withheld_item_count": 0,
+          "date_range_start": "2025-10-31",
+          "date_range_end": "2025-11-12",
+          "generated_at": "2026-07-23",
+          "model": "offline-heuristic"
+        },
+        "summary": {
+          "overview": "Across 7 anonymised, user-reported items from 3 distinct authors, recurring perceptions cluster into 4 positive theme(s) and 2 challenge theme(s). All statements are unverified impressions, not established facts.",
+          "positive_themes": [
+            {
+              "theme": "Supportive supervision",
+              "description": "Several items describe supervisors or mentors as approachable and helpful.",
+              "supporting_item_count": 4
+            },
+            {
+              "theme": "Collaborative atmosphere",
+              "description": "Items mention collaboration and a friendly group culture.",
+              "supporting_item_count": 2
+            },
+            {
+              "theme": "Resources and facilities",
+              "description": "Items note access to funding, equipment or facilities.",
+              "supporting_item_count": 2
+            },
+            {
+              "theme": "Research freedom",
+              "description": "Items describe autonomy in choosing research directions.",
+              "supporting_item_count": 1
+            }
+          ],
+          "challenge_themes": [
+            {
+              "theme": "Pressure and expectations",
+              "description": "Items describe pressure from deadlines or high expectations.",
+              "supporting_item_count": 3
+            },
+            {
+              "theme": "Communication and clarity",
+              "description": "Items mention unclear communication or expectations.",
+              "supporting_item_count": 2
+            }
+          ],
+          "neutral_observations": [
+            "Items reference an international or diverse membership.",
+            "Items reference interdisciplinary or cross-department work."
+          ],
+          "confidence": "low",
+          "limitations": [
+            "Statements are self-selected and unverified.",
+            "Volume is limited and may not represent the wider group.",
+            "Perceptions are dominated by a small number of authors."
+          ],
+          "withheld_item_count": 0
+        }
+      },
+      {
+        "campus_id": "ucl-royal-free",
+        "name": "Royal Free Campus",
+        "short_name": "Royal Free",
+        "latitude": 51.5529389,
+        "longitude": -0.1654964,
+        "address": "Rowland Hill Street, London NW3 2PF",
+        "location_type": "medical_research_campus",
+        "represented_lab_count": 0,
+        "source_item_count": 0,
+        "unique_author_count": 0,
+        "evidence_status": "no_assigned_evidence",
+        "confidence": null,
+        "provenance": null,
+        "summary": null
+      },
+      {
+        "campus_id": "ucl-ophthalmology",
+        "name": "Institute of Ophthalmology",
+        "short_name": "Ophthalmology",
+        "latitude": 51.5271258,
+        "longitude": -0.0910174,
+        "address": "11-43 Bath Street, London EC1V 9EL",
+        "location_type": "research_institute",
+        "represented_lab_count": 0,
+        "source_item_count": 0,
+        "unique_author_count": 0,
+        "evidence_status": "no_assigned_evidence",
+        "confidence": null,
+        "provenance": null,
+        "summary": null
+      }
+    ],
+    "campus_unspecified": {
+      "campus_id": null,
+      "campus_label": "Location unspecified",
+      "source_item_count": 1,
+      "unique_author_count": 1,
+      "date_range_start": "2025-10-17",
+      "date_range_end": "2025-10-17"
+    },
+    "represented_lab_count": 2,
+    "source_item_count": 15,
+    "unique_author_count": 4,
+    "date_range_start": "2025-10-13",
+    "date_range_end": "2025-11-12",
+    "overall_themes": [
+      "Supportive supervision",
+      "Collaborative atmosphere",
+      "Resources and facilities",
+      "Research freedom",
+      "Pressure and expectations",
+      "Workload and hours"
+    ],
+    "confidence": "medium",
+    "last_updated": "2026-07-23",
+    "departments": [
+      "Computer Science",
+      "Neuroscience"
+    ],
+    "research_areas": [
+      "Cognition",
+      "Machine Learning",
+      "Medical Imaging",
+      "Natural Language Processing",
+      "Neuroscience"
+    ],
+    "labs": [
+      {
+        "lab_id": "ucl-machine-reasoning",
+        "lab_name": "Machine Reasoning Group",
+        "department": "Computer Science",
+        "campus_ids": [
+          "ucl-bloomsbury",
+          "ucl-east"
+        ],
+        "campus_evidence": [
+          {
+            "campus_id": "ucl-bloomsbury",
+            "campus_label": "Bloomsbury",
+            "source_item_count": 3,
+            "unique_author_count": 2,
+            "date_range_start": "2025-10-13",
+            "date_range_end": "2025-10-25"
+          },
+          {
+            "campus_id": "ucl-east",
+            "campus_label": "UCL East",
+            "source_item_count": 4,
+            "unique_author_count": 2,
+            "date_range_start": "2025-10-15",
+            "date_range_end": "2025-10-27"
+          },
+          {
+            "campus_id": null,
+            "campus_label": "Location unspecified",
+            "source_item_count": 1,
+            "unique_author_count": 1,
+            "date_range_start": "2025-10-17",
+            "date_range_end": "2025-10-17"
+          }
+        ],
+        "campus_summaries": [],
+        "research_areas": [
+          "Natural Language Processing",
+          "Machine Learning"
+        ],
+        "has_summary": true,
+        "message": null,
+        "confidence": "medium",
+        "provenance": {
+          "source_item_count": 8,
+          "unique_author_count": 4,
+          "withheld_item_count": 1,
+          "date_range_start": "2025-10-13",
+          "date_range_end": "2025-10-27",
+          "generated_at": "2026-07-23",
+          "model": "offline-heuristic"
+        },
+        "summary": {
+          "overview": "Across 8 anonymised, user-reported items from 4 distinct authors, recurring perceptions cluster into 4 positive theme(s) and 3 challenge theme(s). All statements are unverified impressions, not established facts.",
+          "positive_themes": [
+            {
+              "theme": "Supportive supervision",
+              "description": "Several items describe supervisors or mentors as approachable and helpful.",
+              "supporting_item_count": 5
+            },
+            {
+              "theme": "Collaborative atmosphere",
+              "description": "Items mention collaboration and a friendly group culture.",
+              "supporting_item_count": 2
+            },
+            {
+              "theme": "Resources and facilities",
+              "description": "Items note access to funding, equipment or facilities.",
+              "supporting_item_count": 2
+            },
+            {
+              "theme": "Research freedom",
+              "description": "Items describe autonomy in choosing research directions.",
+              "supporting_item_count": 1
+            }
+          ],
+          "challenge_themes": [
+            {
+              "theme": "Workload and hours",
+              "description": "Items report long hours or a heavy workload.",
+              "supporting_item_count": 2
+            },
+            {
+              "theme": "Pressure and expectations",
+              "description": "Items describe pressure from deadlines or high expectations.",
+              "supporting_item_count": 2
+            },
+            {
+              "theme": "Administrative burden",
+              "description": "Items note administrative or bureaucratic overhead.",
+              "supporting_item_count": 1
+            }
+          ],
+          "neutral_observations": [
+            "Items reference an international or diverse membership.",
+            "Items mention the group's size or structure.",
+            "Items reference interdisciplinary or cross-department work."
+          ],
+          "confidence": "medium",
+          "limitations": [
+            "Statements are self-selected and unverified.",
+            "Volume is limited and may not represent the wider group."
+          ],
+          "withheld_item_count": 1
+        }
+      },
+      {
+        "lab_id": "ucl-cognitive-circuits",
+        "lab_name": "Cognitive Circuits Lab",
+        "department": "Neuroscience",
+        "campus_ids": [
+          "ucl-queen-square"
+        ],
+        "campus_evidence": [
+          {
+            "campus_id": "ucl-queen-square",
+            "campus_label": "Queen Square",
+            "source_item_count": 7,
+            "unique_author_count": 3,
+            "date_range_start": "2025-10-31",
+            "date_range_end": "2025-11-12"
+          }
+        ],
+        "campus_summaries": [],
+        "research_areas": [
+          "Neuroscience",
+          "Cognition"
+        ],
+        "has_summary": true,
+        "message": null,
+        "confidence": "low",
+        "provenance": {
+          "source_item_count": 7,
+          "unique_author_count": 3,
+          "withheld_item_count": 0,
+          "date_range_start": "2025-10-31",
+          "date_range_end": "2025-11-12",
+          "generated_at": "2026-07-23",
+          "model": "offline-heuristic"
+        },
+        "summary": {
+          "overview": "Across 7 anonymised, user-reported items from 3 distinct authors, recurring perceptions cluster into 4 positive theme(s) and 2 challenge theme(s). All statements are unverified impressions, not established facts.",
+          "positive_themes": [
+            {
+              "theme": "Supportive supervision",
+              "description": "Several items describe supervisors or mentors as approachable and helpful.",
+              "supporting_item_count": 4
+            },
+            {
+              "theme": "Collaborative atmosphere",
+              "description": "Items mention collaboration and a friendly group culture.",
+              "supporting_item_count": 2
+            },
+            {
+              "theme": "Resources and facilities",
+              "description": "Items note access to funding, equipment or facilities.",
+              "supporting_item_count": 2
+            },
+            {
+              "theme": "Research freedom",
+              "description": "Items describe autonomy in choosing research directions.",
+              "supporting_item_count": 1
+            }
+          ],
+          "challenge_themes": [
+            {
+              "theme": "Pressure and expectations",
+              "description": "Items describe pressure from deadlines or high expectations.",
+              "supporting_item_count": 3
+            },
+            {
+              "theme": "Communication and clarity",
+              "description": "Items mention unclear communication or expectations.",
+              "supporting_item_count": 2
+            }
+          ],
+          "neutral_observations": [
+            "Items reference an international or diverse membership.",
+            "Items reference interdisciplinary or cross-department work."
+          ],
+          "confidence": "low",
+          "limitations": [
+            "Statements are self-selected and unverified.",
+            "Volume is limited and may not represent the wider group.",
+            "Perceptions are dominated by a small number of authors."
+          ],
+          "withheld_item_count": 0
+        }
+      },
+      {
+        "lab_id": "ucl-imaging-analytics",
+        "lab_name": "Imaging Analytics Lab",
+        "department": "Neuroscience",
+        "campus_ids": [
+          "ucl-queen-square",
+          "ucl-royal-free"
+        ],
+        "campus_evidence": [],
+        "campus_summaries": [],
+        "research_areas": [
+          "Medical Imaging"
+        ],
+        "has_summary": false,
+        "message": "Insufficient public data for a reliable summary.",
+        "confidence": null,
+        "provenance": null,
+        "summary": null
+      }
+    ]
+  },
+  {
+    "institution_id": "kcl",
+    "name": "King's College London",
+    "short_name": "KCL",
+    "region": "london",
+    "map_center": {
+      "latitude": 51.497,
+      "longitude": -0.101
+    },
+    "website": "https://www.kcl.ac.uk",
+    "campuses": [
+      {
+        "campus_id": "kcl-strand",
+        "name": "Strand Campus",
+        "short_name": "Strand",
+        "latitude": 51.5114753,
+        "longitude": -0.1161094,
+        "address": "Strand, London WC2R 2LS",
+        "location_type": "university_campus",
+        "represented_lab_count": 1,
+        "source_item_count": 1,
+        "unique_author_count": 1,
+        "evidence_status": "below_threshold",
+        "confidence": null,
+        "provenance": {
+          "source_item_count": 1,
+          "unique_author_count": 1,
+          "withheld_item_count": 0,
+          "date_range_start": "2025-11-14",
+          "date_range_end": "2025-11-14",
+          "generated_at": "2026-07-23",
+          "model": "offline-heuristic"
+        },
+        "summary": null
+      },
+      {
+        "campus_id": "kcl-guys",
+        "name": "Guy's Campus",
+        "short_name": "Guy's",
+        "latitude": 51.5034339,
+        "longitude": -0.0881934,
+        "address": "Great Maze Pond, London SE1 1UL",
+        "location_type": "medical_research_campus",
+        "represented_lab_count": 0,
+        "source_item_count": 0,
+        "unique_author_count": 0,
+        "evidence_status": "no_assigned_evidence",
+        "confidence": null,
+        "provenance": null,
+        "summary": null
+      },
+      {
+        "campus_id": "kcl-waterloo",
+        "name": "Waterloo Campus",
+        "short_name": "Waterloo",
+        "latitude": 51.5052366,
+        "longitude": -0.1115945,
+        "address": "57 Waterloo Road, London SE1 8WA",
+        "location_type": "university_campus",
+        "represented_lab_count": 1,
+        "source_item_count": 2,
+        "unique_author_count": 2,
+        "evidence_status": "below_threshold",
+        "confidence": null,
+        "provenance": {
+          "source_item_count": 2,
+          "unique_author_count": 2,
+          "withheld_item_count": 0,
+          "date_range_start": "2025-11-16",
+          "date_range_end": "2025-11-20",
+          "generated_at": "2026-07-23",
+          "model": "offline-heuristic"
+        },
+        "summary": null
+      },
+      {
+        "campus_id": "kcl-st-thomas",
+        "name": "St Thomas' Campus",
+        "short_name": "St Thomas'",
+        "latitude": 51.4990645,
+        "longitude": -0.1186968,
+        "address": "Westminster Bridge Road, London SE1 7EH",
+        "location_type": "medical_research_campus",
+        "represented_lab_count": 0,
+        "source_item_count": 0,
+        "unique_author_count": 0,
+        "evidence_status": "no_assigned_evidence",
+        "confidence": null,
+        "provenance": null,
+        "summary": null
+      },
+      {
+        "campus_id": "kcl-denmark-hill",
+        "name": "Denmark Hill Campus",
+        "short_name": "Denmark Hill",
+        "latitude": 51.469975,
+        "longitude": -0.0890817,
+        "address": "16 De Crespigny Park, London SE5 8AF",
+        "location_type": "medical_research_campus",
+        "represented_lab_count": 1,
+        "source_item_count": 2,
+        "unique_author_count": 2,
+        "evidence_status": "below_threshold",
+        "confidence": null,
+        "provenance": {
+          "source_item_count": 2,
+          "unique_author_count": 2,
+          "withheld_item_count": 0,
+          "date_range_start": "2025-11-22",
+          "date_range_end": "2025-11-24",
+          "generated_at": "2026-07-23",
+          "model": "offline-heuristic"
+        },
+        "summary": null
+      }
+    ],
+    "campus_unspecified": {
+      "campus_id": null,
+      "campus_label": "Location unspecified",
+      "source_item_count": 1,
+      "unique_author_count": 1,
+      "date_range_start": "2025-11-18",
+      "date_range_end": "2025-11-18"
+    },
+    "represented_lab_count": 2,
+    "source_item_count": 6,
+    "unique_author_count": 3,
+    "date_range_start": "2025-11-14",
+    "date_range_end": "2025-11-24",
+    "overall_themes": [],
+    "confidence": null,
+    "last_updated": null,
+    "departments": [
+      "Informatics",
+      "Psychology"
+    ],
+    "research_areas": [
+      "Cognitive Science",
+      "Distributed Systems",
+      "Security",
+      "Wellbeing Research"
+    ],
+    "labs": [
+      {
+        "lab_id": "kcl-distributed-systems",
+        "lab_name": "Distributed Systems Group",
+        "department": "Informatics",
+        "campus_ids": [
+          "kcl-strand",
+          "kcl-waterloo"
+        ],
+        "campus_evidence": [
+          {
+            "campus_id": "kcl-strand",
+            "campus_label": "Strand",
+            "source_item_count": 1,
+            "unique_author_count": 1,
+            "date_range_start": "2025-11-14",
+            "date_range_end": "2025-11-14"
+          },
+          {
+            "campus_id": "kcl-waterloo",
+            "campus_label": "Waterloo",
+            "source_item_count": 2,
+            "unique_author_count": 2,
+            "date_range_start": "2025-11-16",
+            "date_range_end": "2025-11-20"
+          },
+          {
+            "campus_id": null,
+            "campus_label": "Location unspecified",
+            "source_item_count": 1,
+            "unique_author_count": 1,
+            "date_range_start": "2025-11-18",
+            "date_range_end": "2025-11-18"
+          }
+        ],
+        "campus_summaries": [],
+        "research_areas": [
+          "Distributed Systems",
+          "Security"
+        ],
+        "has_summary": false,
+        "message": "Insufficient public data for a reliable summary.",
+        "confidence": null,
+        "provenance": {
+          "source_item_count": 4,
+          "unique_author_count": 3,
+          "withheld_item_count": 0,
+          "date_range_start": "2025-11-14",
+          "date_range_end": "2025-11-20",
+          "generated_at": "2026-07-23",
+          "model": "offline-heuristic"
+        },
+        "summary": null
+      },
+      {
+        "lab_id": "kcl-affective-science",
+        "lab_name": "Affective Science Lab",
+        "department": "Psychology",
+        "campus_ids": [
+          "kcl-denmark-hill"
+        ],
+        "campus_evidence": [
+          {
+            "campus_id": "kcl-denmark-hill",
+            "campus_label": "Denmark Hill",
+            "source_item_count": 2,
+            "unique_author_count": 2,
+            "date_range_start": "2025-11-22",
+            "date_range_end": "2025-11-24"
+          }
+        ],
+        "campus_summaries": [],
+        "research_areas": [
+          "Cognitive Science",
+          "Wellbeing Research"
+        ],
+        "has_summary": false,
+        "message": "Insufficient public data for a reliable summary.",
+        "confidence": null,
+        "provenance": {
+          "source_item_count": 2,
+          "unique_author_count": 2,
+          "withheld_item_count": 0,
+          "date_range_start": "2025-11-22",
+          "date_range_end": "2025-11-24",
+          "generated_at": "2026-07-23",
+          "model": "offline-heuristic"
+        },
+        "summary": null
+      }
+    ]
+  },
+  {
+    "institution_id": "qmul",
+    "name": "Queen Mary University of London",
+    "short_name": "QMUL",
+    "region": "london",
+    "map_center": {
+      "latitude": 51.5218,
+      "longitude": -0.067
+    },
+    "website": "https://www.qmul.ac.uk",
+    "campuses": [
+      {
+        "campus_id": "qmul-mile-end",
+        "name": "Mile End Campus",
+        "short_name": "Mile End",
+        "latitude": 51.5247403,
+        "longitude": -0.0393136,
+        "address": "Mile End Road, London E1 4NS",
+        "location_type": "university_campus",
+        "represented_lab_count": 2,
+        "source_item_count": 6,
+        "unique_author_count": 3,
+        "evidence_status": "summary_available",
+        "confidence": "low",
+        "provenance": {
+          "source_item_count": 6,
+          "unique_author_count": 3,
+          "withheld_item_count": 0,
+          "date_range_start": "2025-11-26",
+          "date_range_end": "2025-12-06",
+          "generated_at": "2026-07-23",
+          "model": "offline-heuristic"
+        },
+        "summary": {
+          "overview": "Across 6 anonymised, user-reported items from 3 distinct authors, recurring perceptions cluster into 4 positive theme(s) and 2 challenge theme(s). All statements are unverified impressions, not established facts.",
+          "positive_themes": [
+            {
+              "theme": "Supportive supervision",
+              "description": "Several items describe supervisors or mentors as approachable and helpful.",
+              "supporting_item_count": 3
+            },
+            {
+              "theme": "Collaborative atmosphere",
+              "description": "Items mention collaboration and a friendly group culture.",
+              "supporting_item_count": 2
+            },
+            {
+              "theme": "Resources and facilities",
+              "description": "Items note access to funding, equipment or facilities.",
+              "supporting_item_count": 2
+            },
+            {
+              "theme": "Research freedom",
+              "description": "Items describe autonomy in choosing research directions.",
+              "supporting_item_count": 1
+            }
+          ],
+          "challenge_themes": [
+            {
+              "theme": "Pressure and expectations",
+              "description": "Items describe pressure from deadlines or high expectations.",
+              "supporting_item_count": 2
+            },
+            {
+              "theme": "Communication and clarity",
+              "description": "Items mention unclear communication or expectations.",
+              "supporting_item_count": 2
+            }
+          ],
+          "neutral_observations": [
+            "Items reference an international or diverse membership.",
+            "Items mention the group's size or structure."
+          ],
+          "confidence": "low",
+          "limitations": [
+            "Statements are self-selected and unverified.",
+            "Volume is limited and may not represent the wider group.",
+            "Perceptions are dominated by a small number of authors."
+          ],
+          "withheld_item_count": 0
+        }
+      },
+      {
+        "campus_id": "qmul-whitechapel",
+        "name": "Whitechapel Campus",
+        "short_name": "Whitechapel",
+        "latitude": 51.5176743,
+        "longitude": -0.0606383,
+        "address": "Turner Street, London E1 2AD",
+        "location_type": "medical_research_campus",
+        "represented_lab_count": 1,
+        "source_item_count": 2,
+        "unique_author_count": 1,
+        "evidence_status": "below_threshold",
+        "confidence": null,
+        "provenance": {
+          "source_item_count": 2,
+          "unique_author_count": 1,
+          "withheld_item_count": 0,
+          "date_range_start": "2025-12-08",
+          "date_range_end": "2025-12-12",
+          "generated_at": "2026-07-23",
+          "model": "offline-heuristic"
+        },
+        "summary": null
+      },
+      {
+        "campus_id": "qmul-charterhouse-square",
+        "name": "Charterhouse Square Campus",
+        "short_name": "Charterhouse Square",
+        "latitude": 51.5227918,
+        "longitude": -0.0996753,
+        "address": "Charterhouse Square, London EC1M 6BQ",
+        "location_type": "medical_research_campus",
+        "represented_lab_count": 0,
+        "source_item_count": 0,
+        "unique_author_count": 0,
+        "evidence_status": "no_assigned_evidence",
+        "confidence": null,
+        "provenance": null,
+        "summary": null
+      },
+      {
+        "campus_id": "qmul-west-smithfield",
+        "name": "West Smithfield Campus",
+        "short_name": "West Smithfield",
+        "latitude": 51.5173844,
+        "longitude": -0.1000909,
+        "address": "West Smithfield, London EC1A 7BE",
+        "location_type": "medical_research_campus",
+        "represented_lab_count": 0,
+        "source_item_count": 0,
+        "unique_author_count": 0,
+        "evidence_status": "no_assigned_evidence",
+        "confidence": null,
+        "provenance": null,
+        "summary": null
+      }
+    ],
+    "campus_unspecified": {
+      "campus_id": null,
+      "campus_label": "Location unspecified",
+      "source_item_count": 1,
+      "unique_author_count": 1,
+      "date_range_start": "2025-12-10",
+      "date_range_end": "2025-12-10"
+    },
+    "represented_lab_count": 2,
+    "source_item_count": 9,
+    "unique_author_count": 3,
+    "date_range_start": "2025-11-26",
+    "date_range_end": "2025-12-12",
+    "overall_themes": [
+      "Supportive supervision",
+      "Collaborative atmosphere",
+      "Resources and facilities",
+      "Research freedom",
+      "Pressure and expectations",
+      "Communication and clarity"
+    ],
+    "confidence": "low",
+    "last_updated": "2026-07-23",
+    "departments": [
+      "Electronic Engineering and Computer Science"
+    ],
+    "research_areas": [
+      "Cognitive Science",
+      "Distributed Systems",
+      "Human-Computer Interaction",
+      "Networking"
+    ],
+    "labs": [
+      {
+        "lab_id": "qmul-networks",
+        "lab_name": "Networks Research Lab",
+        "department": "Electronic Engineering and Computer Science",
+        "campus_ids": [
+          "qmul-mile-end"
+        ],
+        "campus_evidence": [
+          {
+            "campus_id": "qmul-mile-end",
+            "campus_label": "Mile End",
+            "source_item_count": 5,
+            "unique_author_count": 3,
+            "date_range_start": "2025-11-26",
+            "date_range_end": "2025-12-04"
+          }
+        ],
+        "campus_summaries": [],
+        "research_areas": [
+          "Networking",
+          "Distributed Systems"
+        ],
+        "has_summary": true,
+        "message": null,
+        "confidence": "low",
+        "provenance": {
+          "source_item_count": 5,
+          "unique_author_count": 3,
+          "withheld_item_count": 0,
+          "date_range_start": "2025-11-26",
+          "date_range_end": "2025-12-04",
+          "generated_at": "2026-07-23",
+          "model": "offline-heuristic"
+        },
+        "summary": {
+          "overview": "Across 5 anonymised, user-reported items from 3 distinct authors, recurring perceptions cluster into 4 positive theme(s) and 2 challenge theme(s). All statements are unverified impressions, not established facts.",
+          "positive_themes": [
+            {
+              "theme": "Supportive supervision",
+              "description": "Several items describe supervisors or mentors as approachable and helpful.",
+              "supporting_item_count": 2
+            },
+            {
+              "theme": "Collaborative atmosphere",
+              "description": "Items mention collaboration and a friendly group culture.",
+              "supporting_item_count": 2
+            },
+            {
+              "theme": "Resources and facilities",
+              "description": "Items note access to funding, equipment or facilities.",
+              "supporting_item_count": 1
+            },
+            {
+              "theme": "Research freedom",
+              "description": "Items describe autonomy in choosing research directions.",
+              "supporting_item_count": 1
+            }
+          ],
+          "challenge_themes": [
+            {
+              "theme": "Pressure and expectations",
+              "description": "Items describe pressure from deadlines or high expectations.",
+              "supporting_item_count": 2
+            },
+            {
+              "theme": "Communication and clarity",
+              "description": "Items mention unclear communication or expectations.",
+              "supporting_item_count": 1
+            }
+          ],
+          "neutral_observations": [
+            "Items reference an international or diverse membership.",
+            "Items mention the group's size or structure."
+          ],
+          "confidence": "low",
+          "limitations": [
+            "Statements are self-selected and unverified.",
+            "Volume is limited and may not represent the wider group.",
+            "Perceptions are dominated by a small number of authors."
+          ],
+          "withheld_item_count": 0
+        }
+      },
+      {
+        "lab_id": "qmul-cognitive-science",
+        "lab_name": "Cognitive Science Group",
+        "department": "Electronic Engineering and Computer Science",
+        "campus_ids": [
+          "qmul-mile-end",
+          "qmul-whitechapel"
+        ],
+        "campus_evidence": [
+          {
+            "campus_id": "qmul-mile-end",
+            "campus_label": "Mile End",
+            "source_item_count": 1,
+            "unique_author_count": 1,
+            "date_range_start": "2025-12-06",
+            "date_range_end": "2025-12-06"
+          },
+          {
+            "campus_id": "qmul-whitechapel",
+            "campus_label": "Whitechapel",
+            "source_item_count": 2,
+            "unique_author_count": 1,
+            "date_range_start": "2025-12-08",
+            "date_range_end": "2025-12-12"
+          },
+          {
+            "campus_id": null,
+            "campus_label": "Location unspecified",
+            "source_item_count": 1,
+            "unique_author_count": 1,
+            "date_range_start": "2025-12-10",
+            "date_range_end": "2025-12-10"
+          }
+        ],
+        "campus_summaries": [],
+        "research_areas": [
+          "Cognitive Science",
+          "Human-Computer Interaction"
+        ],
+        "has_summary": false,
+        "message": "Insufficient public data for a reliable summary.",
+        "confidence": null,
+        "provenance": {
+          "source_item_count": 4,
+          "unique_author_count": 2,
+          "withheld_item_count": 0,
+          "date_range_start": "2025-12-06",
+          "date_range_end": "2025-12-12",
+          "generated_at": "2026-07-23",
+          "model": "offline-heuristic"
+        },
+        "summary": null
+      }
+    ]
+  },
+  {
+    "institution_id": "lshtm",
+    "name": "London School of Hygiene & Tropical Medicine",
+    "short_name": "LSHTM",
+    "region": "london",
+    "map_center": {
+      "latitude": 51.5231,
+      "longitude": -0.1281
+    },
+    "website": "https://www.lshtm.ac.uk",
+    "campuses": [
+      {
+        "campus_id": "lshtm-keppel-street",
+        "name": "Keppel Street",
+        "short_name": "Keppel Street",
+        "latitude": 51.5209537,
+        "longitude": -0.1303714,
+        "address": "Keppel Street, London WC1E 7HT",
+        "location_type": "research_location",
+        "represented_lab_count": 1,
+        "source_item_count": 2,
+        "unique_author_count": 2,
+        "evidence_status": "below_threshold",
+        "confidence": null,
+        "provenance": {
+          "source_item_count": 2,
+          "unique_author_count": 2,
+          "withheld_item_count": 0,
+          "date_range_start": "2025-12-14",
+          "date_range_end": "2025-12-22",
+          "generated_at": "2026-07-23",
+          "model": "offline-heuristic"
+        },
+        "summary": null
+      },
+      {
+        "campus_id": "lshtm-tavistock-place",
+        "name": "Tavistock Place",
+        "short_name": "Tavistock Place",
+        "latitude": 51.5255902,
+        "longitude": -0.1262059,
+        "address": "15-17 Tavistock Place, London WC1H 9SH",
+        "location_type": "research_location",
+        "represented_lab_count": 2,
+        "source_item_count": 8,
+        "unique_author_count": 3,
+        "evidence_status": "summary_available",
+        "confidence": "low",
+        "provenance": {
+          "source_item_count": 8,
+          "unique_author_count": 3,
+          "withheld_item_count": 0,
+          "date_range_start": "2025-12-16",
+          "date_range_end": "2026-01-05",
+          "generated_at": "2026-07-23",
+          "model": "offline-heuristic"
+        },
+        "summary": {
+          "overview": "Across 8 anonymised, user-reported items from 3 distinct authors, recurring perceptions cluster into 4 positive theme(s) and 2 challenge theme(s). All statements are unverified impressions, not established facts.",
+          "positive_themes": [
+            {
+              "theme": "Supportive supervision",
+              "description": "Several items describe supervisors or mentors as approachable and helpful.",
+              "supporting_item_count": 5
+            },
+            {
+              "theme": "Collaborative atmosphere",
+              "description": "Items mention collaboration and a friendly group culture.",
+              "supporting_item_count": 2
+            },
+            {
+              "theme": "Resources and facilities",
+              "description": "Items note access to funding, equipment or facilities.",
+              "supporting_item_count": 3
+            },
+            {
+              "theme": "Research freedom",
+              "description": "Items describe autonomy in choosing research directions.",
+              "supporting_item_count": 2
+            }
+          ],
+          "challenge_themes": [
+            {
+              "theme": "Pressure and expectations",
+              "description": "Items describe pressure from deadlines or high expectations.",
+              "supporting_item_count": 1
+            },
+            {
+              "theme": "Communication and clarity",
+              "description": "Items mention unclear communication or expectations.",
+              "supporting_item_count": 1
+            }
+          ],
+          "neutral_observations": [
+            "Items reference an international or diverse membership.",
+            "Items mention the group's size or structure.",
+            "Items reference interdisciplinary or cross-department work."
+          ],
+          "confidence": "low",
+          "limitations": [
+            "Statements are self-selected and unverified.",
+            "Volume is limited and may not represent the wider group.",
+            "Perceptions are dominated by a small number of authors."
+          ],
+          "withheld_item_count": 0
+        }
+      }
+    ],
+    "campus_unspecified": {
+      "campus_id": null,
+      "campus_label": "Location unspecified",
+      "source_item_count": 1,
+      "unique_author_count": 1,
+      "date_range_start": "2025-12-18",
+      "date_range_end": "2025-12-18"
+    },
+    "represented_lab_count": 2,
+    "source_item_count": 11,
+    "unique_author_count": 3,
+    "date_range_start": "2025-12-14",
+    "date_range_end": "2026-01-05",
+    "overall_themes": [
+      "Supportive supervision",
+      "Collaborative atmosphere",
+      "Resources and facilities",
+      "Research freedom",
+      "Workload and hours",
+      "Pressure and expectations"
+    ],
+    "confidence": "low",
+    "last_updated": "2026-07-23",
+    "departments": [
+      "Infectious Disease Epidemiology",
+      "Global Health"
+    ],
+    "research_areas": [
+      "Epidemiology",
+      "Global Health",
+      "Health Policy",
+      "Statistical Modelling"
+    ],
+    "labs": [
+      {
+        "lab_id": "lshtm-epidemic-modelling",
+        "lab_name": "Epidemic Modelling Group",
+        "department": "Infectious Disease Epidemiology",
+        "campus_ids": [
+          "lshtm-keppel-street",
+          "lshtm-tavistock-place"
+        ],
+        "campus_evidence": [
+          {
+            "campus_id": "lshtm-keppel-street",
+            "campus_label": "Keppel Street",
+            "source_item_count": 2,
+            "unique_author_count": 2,
+            "date_range_start": "2025-12-14",
+            "date_range_end": "2025-12-22"
+          },
+          {
+            "campus_id": "lshtm-tavistock-place",
+            "campus_label": "Tavistock Place",
+            "source_item_count": 3,
+            "unique_author_count": 3,
+            "date_range_start": "2025-12-16",
+            "date_range_end": "2025-12-24"
+          },
+          {
+            "campus_id": null,
+            "campus_label": "Location unspecified",
+            "source_item_count": 1,
+            "unique_author_count": 1,
+            "date_range_start": "2025-12-18",
+            "date_range_end": "2025-12-18"
+          }
+        ],
+        "campus_summaries": [],
+        "research_areas": [
+          "Epidemiology",
+          "Statistical Modelling"
+        ],
+        "has_summary": true,
+        "message": null,
+        "confidence": "low",
+        "provenance": {
+          "source_item_count": 6,
+          "unique_author_count": 3,
+          "withheld_item_count": 1,
+          "date_range_start": "2025-12-14",
+          "date_range_end": "2025-12-24",
+          "generated_at": "2026-07-23",
+          "model": "offline-heuristic"
+        },
+        "summary": {
+          "overview": "Across 6 anonymised, user-reported items from 3 distinct authors, recurring perceptions cluster into 4 positive theme(s) and 3 challenge theme(s). All statements are unverified impressions, not established facts.",
+          "positive_themes": [
+            {
+              "theme": "Supportive supervision",
+              "description": "Several items describe supervisors or mentors as approachable and helpful.",
+              "supporting_item_count": 4
+            },
+            {
+              "theme": "Collaborative atmosphere",
+              "description": "Items mention collaboration and a friendly group culture.",
+              "supporting_item_count": 1
+            },
+            {
+              "theme": "Resources and facilities",
+              "description": "Items note access to funding, equipment or facilities.",
+              "supporting_item_count": 2
+            },
+            {
+              "theme": "Research freedom",
+              "description": "Items describe autonomy in choosing research directions.",
+              "supporting_item_count": 1
+            }
+          ],
+          "challenge_themes": [
+            {
+              "theme": "Workload and hours",
+              "description": "Items report long hours or a heavy workload.",
+              "supporting_item_count": 2
+            },
+            {
+              "theme": "Pressure and expectations",
+              "description": "Items describe pressure from deadlines or high expectations.",
+              "supporting_item_count": 1
+            },
+            {
+              "theme": "Administrative burden",
+              "description": "Items note administrative or bureaucratic overhead.",
+              "supporting_item_count": 1
+            }
+          ],
+          "neutral_observations": [
+            "Items reference an international or diverse membership.",
+            "Items mention the group's size or structure."
+          ],
+          "confidence": "low",
+          "limitations": [
+            "Statements are self-selected and unverified.",
+            "Volume is limited and may not represent the wider group.",
+            "Perceptions are dominated by a small number of authors."
+          ],
+          "withheld_item_count": 1
+        }
+      },
+      {
+        "lab_id": "lshtm-health-systems",
+        "lab_name": "Health Systems Lab",
+        "department": "Global Health",
+        "campus_ids": [
+          "lshtm-tavistock-place"
+        ],
+        "campus_evidence": [
+          {
+            "campus_id": "lshtm-tavistock-place",
+            "campus_label": "Tavistock Place",
+            "source_item_count": 5,
+            "unique_author_count": 2,
+            "date_range_start": "2025-12-28",
+            "date_range_end": "2026-01-05"
+          }
+        ],
+        "campus_summaries": [],
+        "research_areas": [
+          "Global Health",
+          "Health Policy"
+        ],
+        "has_summary": false,
+        "message": "Insufficient public data for a reliable summary.",
+        "confidence": null,
+        "provenance": {
+          "source_item_count": 5,
+          "unique_author_count": 2,
+          "withheld_item_count": 0,
+          "date_range_start": "2025-12-28",
+          "date_range_end": "2026-01-05",
+          "generated_at": "2026-07-23",
+          "model": "offline-heuristic"
+        },
+        "summary": null
+      }
+    ]
+  },
+  {
+    "institution_id": "crick",
+    "name": "The Francis Crick Institute",
+    "short_name": "The Crick",
+    "region": "london",
+    "map_center": {
+      "latitude": 51.5315299,
+      "longitude": -0.1287829
+    },
+    "website": "https://www.crick.ac.uk",
+    "campuses": [
+      {
+        "campus_id": "crick-st-pancras",
+        "name": "St Pancras",
+        "short_name": "St Pancras",
+        "latitude": 51.5315299,
+        "longitude": -0.1287829,
+        "address": "1 Midland Road, London NW1 1AT",
+        "location_type": "research_institute",
+        "represented_lab_count": 2,
+        "source_item_count": 8,
+        "unique_author_count": 4,
+        "evidence_status": "summary_available",
+        "confidence": "medium",
+        "provenance": {
+          "source_item_count": 8,
+          "unique_author_count": 4,
+          "withheld_item_count": 0,
+          "date_range_start": "2026-01-07",
+          "date_range_end": "2026-01-21",
+          "generated_at": "2026-07-23",
+          "model": "offline-heuristic"
+        },
+        "summary": {
+          "overview": "Across 8 anonymised, user-reported items from 4 distinct authors, recurring perceptions cluster into 4 positive theme(s) and 3 challenge theme(s). All statements are unverified impressions, not established facts.",
+          "positive_themes": [
+            {
+              "theme": "Supportive supervision",
+              "description": "Several items describe supervisors or mentors as approachable and helpful.",
+              "supporting_item_count": 5
+            },
+            {
+              "theme": "Collaborative atmosphere",
+              "description": "Items mention collaboration and a friendly group culture.",
+              "supporting_item_count": 3
+            },
+            {
+              "theme": "Resources and facilities",
+              "description": "Items note access to funding, equipment or facilities.",
+              "supporting_item_count": 2
+            },
+            {
+              "theme": "Research freedom",
+              "description": "Items describe autonomy in choosing research directions.",
+              "supporting_item_count": 1
+            }
+          ],
+          "challenge_themes": [
+            {
+              "theme": "Workload and hours",
+              "description": "Items report long hours or a heavy workload.",
+              "supporting_item_count": 2
+            },
+            {
+              "theme": "Pressure and expectations",
+              "description": "Items describe pressure from deadlines or high expectations.",
+              "supporting_item_count": 2
+            },
+            {
+              "theme": "Administrative burden",
+              "description": "Items note administrative or bureaucratic overhead.",
+              "supporting_item_count": 1
+            }
+          ],
+          "neutral_observations": [
+            "Items reference an international or diverse membership.",
+            "Items mention the group's size or structure.",
+            "Items reference interdisciplinary or cross-department work."
+          ],
+          "confidence": "medium",
+          "limitations": [
+            "Statements are self-selected and unverified.",
+            "Volume is limited and may not represent the wider group."
+          ],
+          "withheld_item_count": 0
+        }
+      }
+    ],
+    "campus_unspecified": {
+      "campus_id": null,
+      "campus_label": "Location unspecified",
+      "source_item_count": 0,
+      "unique_author_count": 0,
+      "date_range_start": null,
+      "date_range_end": null
+    },
+    "represented_lab_count": 2,
+    "source_item_count": 8,
+    "unique_author_count": 4,
+    "date_range_start": "2026-01-07",
+    "date_range_end": "2026-01-21",
+    "overall_themes": [
+      "Supportive supervision",
+      "Collaborative atmosphere",
+      "Resources and facilities",
+      "Research freedom",
+      "Workload and hours",
+      "Pressure and expectations"
+    ],
+    "confidence": "low",
+    "last_updated": "2026-07-23",
+    "departments": [
+      "Structural Biology",
+      "Computational Biology"
+    ],
+    "research_areas": [
+      "Computational Biology",
+      "Cryo-EM",
+      "Genomics",
+      "Structural Biology"
+    ],
+    "labs": [
+      {
+        "lab_id": "crick-genome-analytics",
+        "lab_name": "Genome Analytics Lab",
+        "department": "Computational Biology",
+        "campus_ids": [
+          "crick-st-pancras"
+        ],
+        "campus_evidence": [
+          {
+            "campus_id": "crick-st-pancras",
+            "campus_label": "St Pancras",
+            "source_item_count": 7,
+            "unique_author_count": 4,
+            "date_range_start": "2026-01-09",
+            "date_range_end": "2026-01-21"
+          }
+        ],
+        "campus_summaries": [],
+        "research_areas": [
+          "Genomics",
+          "Computational Biology"
+        ],
+        "has_summary": true,
+        "message": null,
+        "confidence": "low",
+        "provenance": {
+          "source_item_count": 7,
+          "unique_author_count": 4,
+          "withheld_item_count": 0,
+          "date_range_start": "2026-01-09",
+          "date_range_end": "2026-01-21",
+          "generated_at": "2026-07-23",
+          "model": "offline-heuristic"
+        },
+        "summary": {
+          "overview": "Across 7 anonymised, user-reported items from 4 distinct authors, recurring perceptions cluster into 4 positive theme(s) and 3 challenge theme(s). All statements are unverified impressions, not established facts.",
+          "positive_themes": [
+            {
+              "theme": "Supportive supervision",
+              "description": "Several items describe supervisors or mentors as approachable and helpful.",
+              "supporting_item_count": 4
+            },
+            {
+              "theme": "Collaborative atmosphere",
+              "description": "Items mention collaboration and a friendly group culture.",
+              "supporting_item_count": 3
+            },
+            {
+              "theme": "Resources and facilities",
+              "description": "Items note access to funding, equipment or facilities.",
+              "supporting_item_count": 2
+            },
+            {
+              "theme": "Research freedom",
+              "description": "Items describe autonomy in choosing research directions.",
+              "supporting_item_count": 1
+            }
+          ],
+          "challenge_themes": [
+            {
+              "theme": "Workload and hours",
+              "description": "Items report long hours or a heavy workload.",
+              "supporting_item_count": 2
+            },
+            {
+              "theme": "Pressure and expectations",
+              "description": "Items describe pressure from deadlines or high expectations.",
+              "supporting_item_count": 1
+            },
+            {
+              "theme": "Administrative burden",
+              "description": "Items note administrative or bureaucratic overhead.",
+              "supporting_item_count": 1
+            }
+          ],
+          "neutral_observations": [
+            "Items reference an international or diverse membership.",
+            "Items mention the group's size or structure.",
+            "Items reference interdisciplinary or cross-department work."
+          ],
+          "confidence": "low",
+          "limitations": [
+            "Statements are self-selected and unverified.",
+            "Volume is limited and may not represent the wider group."
+          ],
+          "withheld_item_count": 0
+        }
+      },
+      {
+        "lab_id": "crick-molecular-machines",
+        "lab_name": "Molecular Machines Lab",
+        "department": "Structural Biology",
+        "campus_ids": [
+          "crick-st-pancras"
+        ],
+        "campus_evidence": [
+          {
+            "campus_id": "crick-st-pancras",
+            "campus_label": "St Pancras",
+            "source_item_count": 1,
+            "unique_author_count": 1,
+            "date_range_start": "2026-01-07",
+            "date_range_end": "2026-01-07"
+          }
+        ],
+        "campus_summaries": [],
+        "research_areas": [
+          "Structural Biology",
+          "Cryo-EM"
+        ],
+        "has_summary": false,
+        "message": "Insufficient public data for a reliable summary.",
+        "confidence": null,
+        "provenance": {
+          "source_item_count": 1,
+          "unique_author_count": 1,
+          "withheld_item_count": 0,
+          "date_range_start": "2026-01-07",
+          "date_range_end": "2026-01-07",
+          "generated_at": "2026-07-23",
+          "model": "offline-heuristic"
+        },
+        "summary": null
+      }
+    ]
+  }
+]

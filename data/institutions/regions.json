@@ -1,0 +1,23 @@
+[
+  {
+    "id": "london",
+    "name": "London",
+    "status": "active",
+    "center": [51.5142, -0.1183],
+    "zoom": 13
+  },
+  {
+    "id": "oxford",
+    "name": "Oxford",
+    "status": "coming_soon",
+    "center": [51.7548, -1.2544],
+    "zoom": 14
+  },
+  {
+    "id": "cambridge",
+    "name": "Cambridge",
+    "status": "coming_soon",
+    "center": [52.2043, 0.1149],
+    "zoom": 14
+  }
+]

@@ -1,0 +1,63 @@
+# ---------------------------------------------------------------------------
+# Repository safety: raw and sensitive data must NEVER be committed.
+# Only sanitised, aggregated JSON belongs in web/public/data/.
+# ---------------------------------------------------------------------------
+
+# Raw source posts / comments (lawfully collected, kept local only)
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/README.md
+
+# Intermediate processed / anonymised artefacts (contain internal text)
+data/processed/*
+!data/processed/.gitkeep
+
+# Private moderation queue (withheld sensitive content)
+data/moderation/*
+!data/moderation/.gitkeep
+
+# Local LLM content-hash cache
+data/cache/*
+!data/cache/.gitkeep
+.cache/
+
+# Environment files (may contain tokens / model config)
+.env
+.env.*
+!.env.example
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.uv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---------------------------------------------------------------------------
+# Node / frontend
+# ---------------------------------------------------------------------------
+node_modules/
+web/node_modules/
+web/dist/
+web/coverage/
+*.tsbuildinfo
+.vite/
+
+# ---------------------------------------------------------------------------
+# Editors / OS
+# ---------------------------------------------------------------------------
+.DS_Store
+.idea/
+.vscode/
+*.log

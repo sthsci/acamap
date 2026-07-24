@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-07-23T22:23:42.338654",
+  "model": "offline-heuristic",
+  "prompt_version": "2026-07-01",
+  "min_items": 5,
+  "min_authors": 3,
+  "institution_count": 6,
+  "published_lab_count": 7,
+  "withheld_lab_count": 6,
+  "total_source_items": 67,
+  "disclaimer": "All summaries reflect unverified, user-reported perceptions aggregated from public social media, not verified facts. Selection bias, unverifiable identities and platform recommendation algorithms limit interpretation. No ranking of individual researchers is made or implied."
+}

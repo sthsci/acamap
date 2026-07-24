@@ -1,0 +1,548 @@
+[
+  {
+    "institution_id": "imperial",
+    "name": "Imperial College London",
+    "short_name": "Imperial",
+    "region": "london",
+    "map_center": {"latitude": 51.5039, "longitude": -0.1935},
+    "website": "https://www.imperial.ac.uk",
+    "established": 1907,
+    "campuses": [
+      {
+        "campus_id": "imperial-south-kensington",
+        "name": "South Kensington Campus",
+        "short_name": "South Kensington",
+        "latitude": 51.4989595,
+        "longitude": -0.1756407,
+        "address": "Exhibition Road, London SW7 2AZ",
+        "location_type": "university_campus",
+        "provenance": {
+          "official_source_url": "https://www.imperial.ac.uk/visit/campuses/south-kensington/",
+          "coordinate_source_url": "https://www.openstreetmap.org/relation/12233221",
+          "verified_at": "2026-07-23"
+        }
+      },
+      {
+        "campus_id": "imperial-white-city",
+        "name": "White City Campus",
+        "short_name": "White City",
+        "latitude": 51.5151286,
+        "longitude": -0.2242588,
+        "address": "Wood Lane, London W12 0BZ",
+        "location_type": "university_campus",
+        "provenance": {
+          "official_source_url": "https://www.imperial.ac.uk/visit/campuses/white-city-campus/",
+          "coordinate_source_url": "https://www.openstreetmap.org/way/39976682",
+          "verified_at": "2026-07-23"
+        }
+      },
+      {
+        "campus_id": "imperial-hammersmith",
+        "name": "Hammersmith Hospital Campus",
+        "short_name": "Hammersmith",
+        "latitude": 51.5176352,
+        "longitude": -0.2362244,
+        "address": "Du Cane Road, London W12 0NN",
+        "location_type": "medical_research_campus",
+        "provenance": {
+          "official_source_url": "https://www.imperial.ac.uk/visit/campuses/hammersmith/",
+          "coordinate_source_url": "https://www.openstreetmap.org/way/4363883",
+          "verified_at": "2026-07-23"
+        }
+      },
+      {
+        "campus_id": "imperial-st-marys",
+        "name": "St Mary's Hospital Campus",
+        "short_name": "St Mary's",
+        "latitude": 51.517434,
+        "longitude": -0.1743245,
+        "address": "Praed Street, London W2 1NY",
+        "location_type": "medical_research_campus",
+        "provenance": {
+          "official_source_url": "https://www.imperial.ac.uk/visit/campuses/st-marys/",
+          "coordinate_source_url": "https://www.openstreetmap.org/way/45388015",
+          "verified_at": "2026-07-23"
+        }
+      },
+      {
+        "campus_id": "imperial-charing-cross",
+        "name": "Charing Cross Hospital Campus",
+        "short_name": "Charing Cross",
+        "latitude": 51.4869204,
+        "longitude": -0.2196194,
+        "address": "Fulham Palace Road, London W6 8RF",
+        "location_type": "medical_research_campus",
+        "provenance": {
+          "official_source_url": "https://www.imperial.ac.uk/visit/campuses/charing-cross/",
+          "coordinate_source_url": "https://www.openstreetmap.org/way/188617701",
+          "verified_at": "2026-07-23"
+        }
+      },
+      {
+        "campus_id": "imperial-royal-brompton",
+        "name": "Royal Brompton Hospital Campus",
+        "short_name": "Royal Brompton",
+        "latitude": 51.4893805,
+        "longitude": -0.1710046,
+        "address": "Sydney Street, London SW3 6NP",
+        "location_type": "medical_research_campus",
+        "provenance": {
+          "official_source_url": "https://www.imperial.ac.uk/visit/campuses/royal-brompton/",
+          "coordinate_source_url": "https://www.openstreetmap.org/way/85472872",
+          "verified_at": "2026-07-23"
+        }
+      },
+      {
+        "campus_id": "imperial-chelsea-westminster",
+        "name": "Chelsea and Westminster Hospital Campus",
+        "short_name": "Chelsea & Westminster",
+        "latitude": 51.4843131,
+        "longitude": -0.1813433,
+        "address": "369 Fulham Road, London SW10 9NH",
+        "location_type": "medical_research_campus",
+        "provenance": {
+          "official_source_url": "https://www.imperial.ac.uk/visit/campuses/chelsea-and-westminster/",
+          "coordinate_source_url": "https://www.openstreetmap.org/way/881918254",
+          "verified_at": "2026-07-23"
+        }
+      }
+    ],
+    "departments": [
+      {"name": "Computing", "campus_ids": ["imperial-south-kensington", "imperial-white-city"]},
+      {"name": "Bioengineering", "campus_ids": ["imperial-south-kensington", "imperial-white-city"]}
+    ],
+    "labs": [
+      {
+        "lab_id": "imperial-adaptive-systems",
+        "name": "Adaptive Systems Lab",
+        "department": "Computing",
+        "campus_ids": ["imperial-south-kensington", "imperial-white-city"],
+        "research_areas": ["Machine Learning", "Robotics"]
+      },
+      {
+        "lab_id": "imperial-visual-computing",
+        "name": "Visual Computing Group",
+        "department": "Computing",
+        "campus_ids": ["imperial-white-city"],
+        "research_areas": ["Computer Vision", "Graphics"]
+      },
+      {
+        "lab_id": "imperial-neurotech",
+        "name": "Neurotechnology Lab",
+        "department": "Bioengineering",
+        "campus_ids": ["imperial-south-kensington"],
+        "research_areas": ["Neurotechnology", "Signal Processing"]
+      }
+    ]
+  },
+  {
+    "institution_id": "ucl",
+    "name": "University College London",
+    "short_name": "UCL",
+    "region": "london",
+    "map_center": {"latitude": 51.532, "longitude": -0.086},
+    "website": "https://www.ucl.ac.uk",
+    "established": 1826,
+    "campuses": [
+      {
+        "campus_id": "ucl-bloomsbury",
+        "name": "Bloomsbury Campus",
+        "short_name": "Bloomsbury",
+        "latitude": 51.5244855,
+        "longitude": -0.1338744,
+        "address": "Gower Street, London WC1E 6BT",
+        "location_type": "university_campus",
+        "provenance": {
+          "official_source_url": "https://www.ucl.ac.uk/maps/ucl-buildings",
+          "coordinate_source_url": "https://www.openstreetmap.org/relation/11373735",
+          "verified_at": "2026-07-23",
+          "note": "Official UCL map centre at the Gower Street main campus, cross-checked against the mapped UCL site; not a generic postcode centroid."
+        }
+      },
+      {
+        "campus_id": "ucl-east",
+        "name": "UCL East",
+        "short_name": "UCL East",
+        "latitude": 51.537542,
+        "longitude": -0.0119821,
+        "address": "Marshgate, 7 Sidings Street, London E20 2AE",
+        "location_type": "university_campus",
+        "provenance": {
+          "official_source_url": "https://www.ucl.ac.uk/ucl-east/",
+          "coordinate_source_url": "https://www.openstreetmap.org/way/964277509",
+          "verified_at": "2026-07-23",
+          "note": "Marker uses Marshgate as the research-focused anchor for the wider UCL East campus."
+        }
+      },
+      {
+        "campus_id": "ucl-queen-square",
+        "name": "UCL Queen Square Institute of Neurology",
+        "short_name": "Queen Square",
+        "latitude": 51.5226146,
+        "longitude": -0.1224622,
+        "address": "Queen Square, London WC1N 3BG",
+        "location_type": "research_institute",
+        "provenance": {
+          "official_source_url": "https://www.ucl.ac.uk/brain-sciences/ion",
+          "coordinate_source_url": "https://www.openstreetmap.org/way/800172165",
+          "verified_at": "2026-07-23"
+        }
+      },
+      {
+        "campus_id": "ucl-royal-free",
+        "name": "Royal Free Campus",
+        "short_name": "Royal Free",
+        "latitude": 51.5529389,
+        "longitude": -0.1654964,
+        "address": "Rowland Hill Street, London NW3 2PF",
+        "location_type": "medical_research_campus",
+        "provenance": {
+          "official_source_url": "https://www.ucl.ac.uk/maps/royal-free-hospital",
+          "coordinate_source_url": "https://www.openstreetmap.org/way/818779914",
+          "verified_at": "2026-07-23"
+        }
+      },
+      {
+        "campus_id": "ucl-ophthalmology",
+        "name": "Institute of Ophthalmology",
+        "short_name": "Ophthalmology",
+        "latitude": 51.5271258,
+        "longitude": -0.0910174,
+        "address": "11-43 Bath Street, London EC1V 9EL",
+        "location_type": "research_institute",
+        "provenance": {
+          "official_source_url": "https://www.ucl.ac.uk/brain-sciences/ioo",
+          "coordinate_source_url": "https://www.openstreetmap.org/way/28226663",
+          "verified_at": "2026-07-23"
+        }
+      }
+    ],
+    "departments": [
+      {"name": "Computer Science", "campus_ids": ["ucl-bloomsbury", "ucl-east"]},
+      {"name": "Neuroscience", "campus_ids": ["ucl-bloomsbury", "ucl-queen-square", "ucl-royal-free"]}
+    ],
+    "labs": [
+      {
+        "lab_id": "ucl-machine-reasoning",
+        "name": "Machine Reasoning Group",
+        "department": "Computer Science",
+        "campus_ids": ["ucl-bloomsbury", "ucl-east"],
+        "research_areas": ["Natural Language Processing", "Machine Learning"]
+      },
+      {
+        "lab_id": "ucl-cognitive-circuits",
+        "name": "Cognitive Circuits Lab",
+        "department": "Neuroscience",
+        "campus_ids": ["ucl-queen-square"],
+        "research_areas": ["Neuroscience", "Cognition"]
+      },
+      {
+        "lab_id": "ucl-imaging-analytics",
+        "name": "Imaging Analytics Lab",
+        "department": "Neuroscience",
+        "campus_ids": ["ucl-queen-square", "ucl-royal-free"],
+        "research_areas": ["Medical Imaging"]
+      }
+    ]
+  },
+  {
+    "institution_id": "kcl",
+    "name": "King's College London",
+    "short_name": "KCL",
+    "region": "london",
+    "map_center": {"latitude": 51.497, "longitude": -0.101},
+    "website": "https://www.kcl.ac.uk",
+    "established": 1829,
+    "campuses": [
+      {
+        "campus_id": "kcl-strand",
+        "name": "Strand Campus",
+        "short_name": "Strand",
+        "latitude": 51.5114753,
+        "longitude": -0.1161094,
+        "address": "Strand, London WC2R 2LS",
+        "location_type": "university_campus",
+        "provenance": {
+          "official_source_url": "https://www.kcl.ac.uk/visit/strand-campus",
+          "coordinate_source_url": "https://www.openstreetmap.org/relation/5747097",
+          "verified_at": "2026-07-23"
+        }
+      },
+      {
+        "campus_id": "kcl-guys",
+        "name": "Guy's Campus",
+        "short_name": "Guy's",
+        "latitude": 51.5034339,
+        "longitude": -0.0881934,
+        "address": "Great Maze Pond, London SE1 1UL",
+        "location_type": "medical_research_campus",
+        "provenance": {
+          "official_source_url": "https://www.kcl.ac.uk/visit/guys-campus",
+          "coordinate_source_url": "https://www.openstreetmap.org/relation/14875126",
+          "verified_at": "2026-07-23"
+        }
+      },
+      {
+        "campus_id": "kcl-waterloo",
+        "name": "Waterloo Campus",
+        "short_name": "Waterloo",
+        "latitude": 51.5052366,
+        "longitude": -0.1115945,
+        "address": "57 Waterloo Road, London SE1 8WA",
+        "location_type": "university_campus",
+        "provenance": {
+          "official_source_url": "https://www.kcl.ac.uk/visit/waterloo-campus",
+          "coordinate_source_url": "https://www.openstreetmap.org/relation/18398038",
+          "verified_at": "2026-07-23"
+        }
+      },
+      {
+        "campus_id": "kcl-st-thomas",
+        "name": "St Thomas' Campus",
+        "short_name": "St Thomas'",
+        "latitude": 51.4990645,
+        "longitude": -0.1186968,
+        "address": "Westminster Bridge Road, London SE1 7EH",
+        "location_type": "medical_research_campus",
+        "provenance": {
+          "official_source_url": "https://www.kcl.ac.uk/visit/st-thomas-campus",
+          "coordinate_source_url": "https://www.openstreetmap.org/way/122227536",
+          "verified_at": "2026-07-23"
+        }
+      },
+      {
+        "campus_id": "kcl-denmark-hill",
+        "name": "Denmark Hill Campus",
+        "short_name": "Denmark Hill",
+        "latitude": 51.469975,
+        "longitude": -0.0890817,
+        "address": "16 De Crespigny Park, London SE5 8AF",
+        "location_type": "medical_research_campus",
+        "provenance": {
+          "official_source_url": "https://www.kcl.ac.uk/visit/denmark-hill-campus",
+          "coordinate_source_url": "https://www.openstreetmap.org/relation/2131",
+          "verified_at": "2026-07-23",
+          "note": "Anchor is the official campus address and IoPPN research building. The wider official campus spans distinct east and west sub-sites."
+        }
+      }
+    ],
+    "departments": [
+      {"name": "Informatics", "campus_ids": ["kcl-strand", "kcl-waterloo"]},
+      {"name": "Psychology", "campus_ids": ["kcl-denmark-hill"]}
+    ],
+    "labs": [
+      {
+        "lab_id": "kcl-distributed-systems",
+        "name": "Distributed Systems Group",
+        "department": "Informatics",
+        "campus_ids": ["kcl-strand", "kcl-waterloo"],
+        "research_areas": ["Distributed Systems", "Security"]
+      },
+      {
+        "lab_id": "kcl-affective-science",
+        "name": "Affective Science Lab",
+        "department": "Psychology",
+        "campus_ids": ["kcl-denmark-hill"],
+        "research_areas": ["Cognitive Science", "Wellbeing Research"]
+      }
+    ]
+  },
+  {
+    "institution_id": "qmul",
+    "name": "Queen Mary University of London",
+    "short_name": "QMUL",
+    "region": "london",
+    "map_center": {"latitude": 51.5218, "longitude": -0.067},
+    "website": "https://www.qmul.ac.uk",
+    "established": 1785,
+    "campuses": [
+      {
+        "campus_id": "qmul-mile-end",
+        "name": "Mile End Campus",
+        "short_name": "Mile End",
+        "latitude": 51.5247403,
+        "longitude": -0.0393136,
+        "address": "Mile End Road, London E1 4NS",
+        "location_type": "university_campus",
+        "provenance": {
+          "official_source_url": "https://www.qmul.ac.uk/about/howtofindus/mileend/",
+          "coordinate_source_url": "https://www.openstreetmap.org/relation/16416944",
+          "verified_at": "2026-07-23"
+        }
+      },
+      {
+        "campus_id": "qmul-whitechapel",
+        "name": "Whitechapel Campus",
+        "short_name": "Whitechapel",
+        "latitude": 51.5176743,
+        "longitude": -0.0606383,
+        "address": "Turner Street, London E1 2AD",
+        "location_type": "medical_research_campus",
+        "provenance": {
+          "official_source_url": "https://www.qmul.ac.uk/about/howtofindus/whitechapel/",
+          "coordinate_source_url": "https://www.openstreetmap.org/way/22883967",
+          "verified_at": "2026-07-23"
+        }
+      },
+      {
+        "campus_id": "qmul-charterhouse-square",
+        "name": "Charterhouse Square Campus",
+        "short_name": "Charterhouse Square",
+        "latitude": 51.5227918,
+        "longitude": -0.0996753,
+        "address": "Charterhouse Square, London EC1M 6BQ",
+        "location_type": "medical_research_campus",
+        "provenance": {
+          "official_source_url": "https://www.qmul.ac.uk/about/howtofindus/charterhouse/",
+          "coordinate_source_url": "https://www.openstreetmap.org/node/26816010",
+          "verified_at": "2026-07-23",
+          "note": "Anchor is the mapped Queen Mary medical school within the official Charterhouse Square campus, not the surrounding road or postcode."
+        }
+      },
+      {
+        "campus_id": "qmul-west-smithfield",
+        "name": "West Smithfield Campus",
+        "short_name": "West Smithfield",
+        "latitude": 51.5173844,
+        "longitude": -0.1000909,
+        "address": "West Smithfield, London EC1A 7BE",
+        "location_type": "medical_research_campus",
+        "provenance": {
+          "official_source_url": "https://www.qmul.ac.uk/about/howtofindus/westsmithfield/",
+          "coordinate_source_url": "https://www.openstreetmap.org/way/1336449461",
+          "verified_at": "2026-07-23"
+        }
+      }
+    ],
+    "departments": [
+      {
+        "name": "Electronic Engineering and Computer Science",
+        "campus_ids": ["qmul-mile-end", "qmul-whitechapel"]
+      }
+    ],
+    "labs": [
+      {
+        "lab_id": "qmul-networks",
+        "name": "Networks Research Lab",
+        "department": "Electronic Engineering and Computer Science",
+        "campus_ids": ["qmul-mile-end"],
+        "research_areas": ["Networking", "Distributed Systems"]
+      },
+      {
+        "lab_id": "qmul-cognitive-science",
+        "name": "Cognitive Science Group",
+        "department": "Electronic Engineering and Computer Science",
+        "campus_ids": ["qmul-mile-end", "qmul-whitechapel"],
+        "research_areas": ["Cognitive Science", "Human-Computer Interaction"]
+      }
+    ]
+  },
+  {
+    "institution_id": "lshtm",
+    "name": "London School of Hygiene & Tropical Medicine",
+    "short_name": "LSHTM",
+    "region": "london",
+    "map_center": {"latitude": 51.5231, "longitude": -0.1281},
+    "website": "https://www.lshtm.ac.uk",
+    "established": 1899,
+    "campuses": [
+      {
+        "campus_id": "lshtm-keppel-street",
+        "name": "Keppel Street",
+        "short_name": "Keppel Street",
+        "latitude": 51.5209537,
+        "longitude": -0.1303714,
+        "address": "Keppel Street, London WC1E 7HT",
+        "location_type": "research_location",
+        "provenance": {
+          "official_source_url": "https://www.lshtm.ac.uk/aboutus/contact/keppel-street-location",
+          "coordinate_source_url": "https://www.openstreetmap.org/way/413975405",
+          "verified_at": "2026-07-23",
+          "note": "Anchor is the named LSHTM building, not the centre of Keppel Street."
+        }
+      },
+      {
+        "campus_id": "lshtm-tavistock-place",
+        "name": "Tavistock Place",
+        "short_name": "Tavistock Place",
+        "latitude": 51.5255902,
+        "longitude": -0.1262059,
+        "address": "15-17 Tavistock Place, London WC1H 9SH",
+        "location_type": "research_location",
+        "provenance": {
+          "official_source_url": "https://www.lshtm.ac.uk/aboutus/contact/tavistock-place-location",
+          "coordinate_source_url": "https://www.openstreetmap.org/way/137355516",
+          "verified_at": "2026-07-23"
+        }
+      }
+    ],
+    "departments": [
+      {
+        "name": "Infectious Disease Epidemiology",
+        "campus_ids": ["lshtm-keppel-street", "lshtm-tavistock-place"]
+      },
+      {"name": "Global Health", "campus_ids": ["lshtm-tavistock-place"]}
+    ],
+    "labs": [
+      {
+        "lab_id": "lshtm-epidemic-modelling",
+        "name": "Epidemic Modelling Group",
+        "department": "Infectious Disease Epidemiology",
+        "campus_ids": ["lshtm-keppel-street", "lshtm-tavistock-place"],
+        "research_areas": ["Epidemiology", "Statistical Modelling"]
+      },
+      {
+        "lab_id": "lshtm-health-systems",
+        "name": "Health Systems Lab",
+        "department": "Global Health",
+        "campus_ids": ["lshtm-tavistock-place"],
+        "research_areas": ["Global Health", "Health Policy"]
+      }
+    ]
+  },
+  {
+    "institution_id": "crick",
+    "name": "The Francis Crick Institute",
+    "short_name": "The Crick",
+    "region": "london",
+    "map_center": {"latitude": 51.5315299, "longitude": -0.1287829},
+    "website": "https://www.crick.ac.uk",
+    "established": 2016,
+    "campuses": [
+      {
+        "campus_id": "crick-st-pancras",
+        "name": "St Pancras",
+        "short_name": "St Pancras",
+        "latitude": 51.5315299,
+        "longitude": -0.1287829,
+        "address": "1 Midland Road, London NW1 1AT",
+        "location_type": "research_institute",
+        "provenance": {
+          "official_source_url": "https://www.crick.ac.uk/about-us/visit-us",
+          "coordinate_source_url": "https://www.openstreetmap.org/way/132318687",
+          "verified_at": "2026-07-23"
+        }
+      }
+    ],
+    "departments": [
+      {"name": "Structural Biology", "campus_ids": ["crick-st-pancras"]},
+      {"name": "Computational Biology", "campus_ids": ["crick-st-pancras"]}
+    ],
+    "labs": [
+      {
+        "lab_id": "crick-molecular-machines",
+        "name": "Molecular Machines Lab",
+        "department": "Structural Biology",
+        "campus_ids": ["crick-st-pancras"],
+        "research_areas": ["Structural Biology", "Cryo-EM"]
+      },
+      {
+        "lab_id": "crick-genome-analytics",
+        "name": "Genome Analytics Lab",
+        "department": "Computational Biology",
+        "campus_ids": ["crick-st-pancras"],
+        "research_areas": ["Genomics", "Computational Biology"]
+      }
+    ]
+  }
+]
