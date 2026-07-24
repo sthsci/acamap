@@ -336,6 +336,21 @@ a {
   border-radius: var(--radius-pill);
   padding: 1px var(--space-2);
 }
+@media (max-width: 540px) {
+  .region-selector {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    width: 100%;
+    border-radius: var(--radius);
+  }
+  .region-chip {
+    min-width: 0;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+    padding: var(--space-2);
+  }
+}
 
 /* ---------- Disclaimer banner ---------- */
 .disclaimer {
