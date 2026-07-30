@@ -8,5 +8,7 @@
   "published_lab_count": 7,
   "withheld_lab_count": 6,
   "total_source_items": 67,
+  "dataset_kind": "synthetic_demo",
+  "dataset_note": "The workplace-perception summaries use synthetic demonstration records. Institution and location details come from the verified public catalogue.",
   "disclaimer": "All summaries reflect unverified, user-reported perceptions aggregated from public social media, not verified facts. Selection bias, unverifiable identities and platform recommendation algorithms limit interpretation. No ranking of individual researchers is made or implied."
 }

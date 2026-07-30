@@ -7,11 +7,15 @@ import sys
 from pathlib import Path
 
 from .config import get_settings
+from .dataset_provenance import DatasetProvenance, write_dataset_provenance
 from .export import export as run_export
 from .ingest import ingest_file, load_processed, write_processed
+from .last30days_import import ImportAudit, build_last30days_import, write_raw_import
 from .llm import HeuristicSummariser, OllamaSummariser, OllamaUnavailableError, Summariser
 from .moderation import moderate, write_queue
 from .summarize import run_summarise
+
+DEFAULT_HASH_SALT = "labvibes-local-dev-salt"
 
 
 def cmd_validate(args: argparse.Namespace) -> int:
@@ -149,6 +153,95 @@ def cmd_review(args: argparse.Namespace) -> int:
     return 0
 
 
+def _print_import_audit(audit: ImportAudit) -> None:
+    print("last30days import audit")
+    print(f"  mapped export files: {audit.input_files}")
+    print(f"  candidate notes:     {audit.candidate_items}")
+    print(f"  selected notes:      {audit.selected_items}")
+    print(f"  ready notes:         {audit.ready_items}")
+    print(f"  duplicates skipped:  {audit.duplicate_items}")
+    if audit.issue_counts:
+        print("  blocking issues:")
+        for issue, count in audit.issue_counts.items():
+            print(f"    {count:>4}  {issue}")
+
+
+def cmd_import_last30days(args: argparse.Namespace) -> int:
+    """Import reviewed last30days JSON exports; never performs collection."""
+    settings = get_settings()
+    manifest_path = Path(args.manifest)
+    if not manifest_path.exists():
+        print(f"error: manifest not found: {manifest_path}", file=sys.stderr)
+        return 2
+
+    try:
+        records, audit = build_last30days_import(manifest_path, settings)
+    except (OSError, ValueError) as exc:
+        print(f"error: {exc}", file=sys.stderr)
+        return 2
+    _print_import_audit(audit)
+    if not audit.ready:
+        print("error: import rejected; fix all blocking issues first", file=sys.stderr)
+        return 2
+    if args.audit_only:
+        print("→ audit passed; nothing written")
+        return 0
+    if not args.confirm_lawful:
+        print(
+            "error: pass --confirm-lawful only after confirming collection and reuse "
+            "are permitted",
+            file=sys.stderr,
+        )
+        return 2
+
+    if args.run_pipeline and settings.hash_salt == DEFAULT_HASH_SALT:
+        print(
+            "error: set a strong LABVIBES_HASH_SALT before processing real records",
+            file=sys.stderr,
+        )
+        return 2
+
+    output = Path(args.output) if args.output else settings.raw_dir / "last30days-normalized.json"
+    output = output.resolve()
+    raw_dir = settings.raw_dir.resolve()
+    if not output.is_relative_to(raw_dir):
+        print(
+            f"error: private normalized output must stay under {raw_dir}",
+            file=sys.stderr,
+        )
+        return 2
+    out = write_raw_import(records, output)
+    print(f"→ {len(records)} private canonical record(s) written to {out}")
+
+    if not args.run_pipeline:
+        return 0
+
+    items = ingest_file(out, settings)
+    processed = write_processed(items, settings)
+    write_dataset_provenance(
+        DatasetProvenance(
+            kind="lawfully_imported",
+            source_format="last30days-json",
+            imported_item_count=len(items),
+        ),
+        settings,
+    )
+    print(f"→ {len(items)} anonymised item(s) written to {processed}")
+
+    summariser = _build_summariser(args)
+    try:
+        result = run_summarise(summariser, settings, force=args.force, dry_run=False)
+    except OllamaUnavailableError as exc:
+        print(f"error: {exc}", file=sys.stderr)
+        return 3
+    published = sum(1 for plan in result.plans if plan.publishable)
+    print(f"→ {published} lab summary/summaries met the publication threshold")
+
+    for name, path in run_export(settings).items():
+        print(f"→ {name}: {path}")
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="labvibes",
@@ -186,6 +279,34 @@ def build_parser() -> argparse.ArgumentParser:
     p_rev = sub.add_parser("review", help="inspect the private moderation queue")
     p_rev.add_argument("--full", action="store_true", help="print withheld text (local)")
     p_rev.set_defaults(func=cmd_review)
+
+    p_l30 = sub.add_parser(
+        "import-last30days",
+        help="audit/import reviewed last30days JSON exports (does not fetch data)",
+    )
+    p_l30.add_argument("--manifest", required=True, help="private review manifest JSON")
+    p_l30.add_argument(
+        "--output",
+        default=None,
+        help="private canonical JSON output under data/raw/",
+    )
+    p_l30.add_argument(
+        "--audit-only", action="store_true", help="validate readiness without writing"
+    )
+    p_l30.add_argument(
+        "--confirm-lawful",
+        action="store_true",
+        help="confirm collection and reuse are permitted",
+    )
+    p_l30.add_argument(
+        "--run-pipeline",
+        action="store_true",
+        help="also anonymise, moderate, summarise and export",
+    )
+    p_l30.add_argument("--offline", action="store_true", help="use the offline heuristic")
+    p_l30.add_argument("--model", help="override the local Ollama model")
+    p_l30.add_argument("--force", action="store_true", help="ignore the summary cache")
+    p_l30.set_defaults(func=cmd_import_last30days)
 
     return parser
 

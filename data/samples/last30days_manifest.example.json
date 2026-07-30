@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "exports": [
+    {
+      "input": "exports/ucl-machine-reasoning.json",
+      "lab_id": "ucl-machine-reasoning",
+      "campus_id": "ucl-bloomsbury",
+      "expected_topic": "UCL Machine Reasoning Group 博士体验",
+      "selected_item_ids": [
+        "XHS-example-001",
+        "XHS-example-002"
+      ]
+    }
+  ]
+}

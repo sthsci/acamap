@@ -83,6 +83,10 @@ class Settings(BaseSettings):
     def moderation_queue_file(self) -> Path:
         return self.moderation_dir / "moderation_queue.json"
 
+    @property
+    def dataset_provenance_file(self) -> Path:
+        return self.processed_dir / "dataset_provenance.json"
+
     def ensure_dirs(self) -> None:
         for path in (
             self.raw_dir,

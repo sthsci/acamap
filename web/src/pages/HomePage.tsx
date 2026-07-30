@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 
 import { BottomSheet } from '../components/BottomSheet';
 import { Disclaimer } from '../components/Disclaimer';
+import { DatasetStatus } from '../components/DatasetStatus';
 import { ErrorBoundary } from '../components/ErrorBoundary';
 import { EmptyState, ErrorState, LoadingState } from '../components/States';
 import { InstitutionPanel } from '../components/InstitutionPanel';
@@ -120,6 +121,8 @@ export function HomePage() {
           />
         </div>
       </section>
+
+      <DatasetStatus meta={data!.meta} />
 
       <Disclaimer />
 

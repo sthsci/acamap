@@ -165,6 +165,66 @@ A ready-to-use fictional sample lives at `data/samples/synthetic_posts.csv`
 To add a new approved source type, implement a `SourceAdapter`
 (`pipeline/adapters/base.py`) and register it in `pipeline/adapters/__init__.py`.
 
+### Importing reviewed `last30days` JSON batches
+
+`acamap` does not run Playwright or fetch platform pages. It can, however,
+strictly audit and import JSON reports that were obtained separately by
+permitted means with `last30days --emit json`.
+
+Use **specific lab/group queries**, not broad searches such as
+“英国博士导师避雷”. A broad result set cannot safely be assigned to one lab.
+Each imported note must have:
+
+- a stable platform `author_id` (a display name is not accepted as a substitute);
+- an ISO publication date;
+- non-empty title or description text;
+- a human-reviewed `selected_item_ids` entry;
+- one canonical `lab_id`, plus an optional valid `campus_id`.
+
+Copy the example manifest into the private, Git-ignored raw directory:
+
+```bash
+cp data/samples/last30days_manifest.example.json \
+  data/raw/last30days-manifest.json
+```
+
+Put the private exports beside it, then edit the manifest so each input file is
+mapped to its canonical lab and contains only IDs a human has checked for
+relevance. First run a write-free readiness audit:
+
+```bash
+uv run labvibes import-last30days \
+  --manifest data/raw/last30days-manifest.json \
+  --audit-only
+```
+
+The audit reports counts only; it does not print titles, authors or URLs. It
+rejects the whole import if a selected note is missing an author ID, date, text,
+catalogue mapping or collection timestamp.
+
+After confirming that collection and reuse are lawful, set a strong private
+hash salt and run the complete local pipeline:
+
+```bash
+uv run labvibes import-last30days \
+  --manifest data/raw/last30days-manifest.json \
+  --confirm-lawful \
+  --run-pipeline \
+  --offline
+```
+
+This performs:
+
+```
+audit → private canonical JSON → anonymise → moderate → aggregate
+      → local summary → privacy scan → web/public/data/*.json
+```
+
+Omit `--offline` to use the configured local Ollama model. The command refuses
+to process real records while the default development hash salt is active.
+Raw JSON, author identifiers, post text, source URLs and the review manifest
+remain under `data/raw/` or `data/processed/` and are never committed.
+
 ## 6. Running the pipeline
 
 ```bash

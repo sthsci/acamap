@@ -122,6 +122,8 @@ export interface ExportMeta {
   published_lab_count: number;
   withheld_lab_count: number;
   total_source_items: number;
+  dataset_kind: 'synthetic_demo' | 'lawfully_imported';
+  dataset_note: string;
   disclaimer: string;
 }
 

@@ -19,6 +19,7 @@ from typing import Literal
 from pydantic import BaseModel, ConfigDict, Field, field_validator
 
 Confidence = Literal["low", "medium", "high"]
+DatasetKind = Literal["synthetic_demo", "lawfully_imported"]
 ItemKind = Literal["post", "comment"]
 CampusAssignmentMethod = Literal[
     "provided", "catalogue_match", "inferred_from_lab", "unspecified"
@@ -341,4 +342,6 @@ class ExportMeta(BaseModel):
     published_lab_count: int
     withheld_lab_count: int
     total_source_items: int
+    dataset_kind: DatasetKind
+    dataset_note: str
     disclaimer: str

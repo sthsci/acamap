@@ -15,6 +15,7 @@ from pathlib import Path
 from . import privacy
 from .catalog import load_regions
 from .config import PROMPT_VERSION, Settings, get_settings
+from .dataset_provenance import DATASET_NOTES, load_dataset_provenance
 from .models import ExportMeta, PublicInstitution
 from .summarize import load_dataset
 
@@ -46,6 +47,7 @@ def _build_meta(institutions: list[PublicInstitution], settings: Settings) -> Ex
         lab.provenance.model for lab in published if lab.provenance and lab.provenance.model
     )
     model = models.most_common(1)[0][0] if models else settings.model
+    dataset = load_dataset_provenance(settings)
     return ExportMeta(
         generated_at=datetime.now(),
         model=model,
@@ -56,6 +58,8 @@ def _build_meta(institutions: list[PublicInstitution], settings: Settings) -> Ex
         published_lab_count=len(published),
         withheld_lab_count=len(withheld),
         total_source_items=sum(inst.source_item_count for inst in institutions),
+        dataset_kind=dataset.kind,
+        dataset_note=DATASET_NOTES[dataset.kind],
         disclaimer=DISCLAIMER,
     )
 

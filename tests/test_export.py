@@ -29,6 +29,8 @@ def test_exported_meta_counts(exported):
     assert meta["institution_count"] == 6
     assert meta["published_lab_count"] == 7
     assert meta["min_items"] == 5 and meta["min_authors"] == 3
+    assert meta["dataset_kind"] == "synthetic_demo"
+    assert "synthetic" in meta["dataset_note"].lower()
     assert "unverified" in meta["disclaimer"].lower()
 
 
